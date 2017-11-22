@@ -1,0 +1,5 @@
+A fairly simple challenge!!
+
+File: http://192.168.1.222:12812/3cd491c4a005a35145310f0deffca081/encoded
+
+Flag format: {KPMG_xxxxxxxxxxx}
