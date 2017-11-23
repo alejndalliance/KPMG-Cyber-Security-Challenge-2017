@@ -21,12 +21,12 @@ The Top 3 teams from Malaysia will be competing with the Top 2 teams from Thaila
 **Available Writeup**
 
 - [CipherFromHell](CipherFromHell/)
-- [how many stars in the sky](ACT 4/how many stars in the sky/)
-- [Click Game APK](ACT 4/click game apk/)
-- [Sonic](ACT 4/sonic/)
-- [Noahs Ark](Noahs Ark/)
-- [Tiny Thumb](ACT 4/tiny thumb/)
-- [Analysis EZ](ACT 4/anal ez/)
+- [how many stars in the sky](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/ACT%204/how%20many%20stars%20in%20the%20sky)
+- [Click Game APK](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/ACT%204/click%20game%20apk)
+- [Sonic](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/ACT%204/sonic)
+- [Noahs Ark](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/Noahs%20Ark)
+- [Tiny Thumb](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/ACT%204/tiny%20thumb)
+- [Analysis EZ](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/ACT%204/anal%20ez)
 - [SecretFly](SecretFly/)
 
 
