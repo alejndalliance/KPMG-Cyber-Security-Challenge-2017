@@ -1,1 +1,0 @@
-The Syndicate found a dropped physical storage device from E-Society which might contain some sensitive information. Please help them to Investigate packet detail to find some evidence!
