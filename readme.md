@@ -29,6 +29,9 @@ The Top 3 teams from Malaysia will be competing with the Top 2 teams from Thaila
 - [Analysis EZ](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/ACT%204/anal%20ez)
 - [SecretFly](SecretFly/)
 - [Long Holiday](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/ACT%203/Long%20Holiday)
+- [BadThumb](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/ACT%203/BadThumb)
+- [Calc](Calc/)
+- [A Game of Jigsaw](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/ACT%203/A%20Game%20of%20Jigsaw)
 
 
 **Not Available**
