@@ -22,7 +22,6 @@ and we found `vacation.mp4` but it cannot be played, so we chech the header we f
 
 ![fixed](fixedheader.png)
 
-Add MsgBox to the `last` parameter to popup the flag
 
 Play the video on 12 sec, we can see the flag
 
