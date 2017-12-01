@@ -1,3 +1,10 @@
+## Description :
+```
+One of your team members came across an executable called "calc.exe" that was located in the Startup Folder on your machine.
+
+With suspicion that you might be compromised, you proceed to conduct an analysis on the executable.
+```
+
 ## File :
 [Calc.zip](Calc.zip)
 
