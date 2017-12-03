@@ -8,7 +8,7 @@ Ms. GG is looking for a way to decrypt the file. Assist her......
 
 ## Solution :
 
-in this this challenge, we are provided with the modulus(`n`) and the exponent(`e`) of an rsa key. we are needed tho decrypt the ciphertext(`c`) using thos provided values. first we need to recover `d`. this can be easily donw using [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
+in this this challenge, we are provided with the modulus(`n`) and the exponent(`e`) of an rsa key. we are needed to decrypt the ciphertext(`c`) using the provided values. first we need to recover `d`, this can be easily done using [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 
 ```zsh
 # mkhdznfq @ ubuntu in ~/Desktop [19:23:15] 
