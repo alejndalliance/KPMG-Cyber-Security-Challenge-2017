@@ -72,5 +72,5 @@ peter at kali in [~/KPMG-Cyber-Security-Challenge-2017/ACT 3/Where Is The File] 
 decoded_file: ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, for GNU/Linux 2.6.32, BuildID[sha1]=1963f496f342a9106e67884a2a686ca7a350acf7, stripped
 ```
 
-The ```file``` command states that the file is an ```ELF`` file. From here we try to execute the file to see what will happen.
+The ```file``` command states that the file is an ```ELF``` file. From here we try to execute the file to see what will happen.
 
