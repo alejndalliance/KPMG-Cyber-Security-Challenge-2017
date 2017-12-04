@@ -72,5 +72,27 @@ peter at kali in [~/KPMG-Cyber-Security-Challenge-2017/ACT 3/Where Is The File] 
 decoded_file: ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, for GNU/Linux 2.6.32, BuildID[sha1]=1963f496f342a9106e67884a2a686ca7a350acf7, stripped
 ```
 
-The ```file``` command states that the file is an ```ELF``` file. From here we try to execute the file to see what will happen.
+The ```file``` command states that the file is an ```ELF``` file. We reverse engineer the ```ELF``` file to see how program works but in this write up we used Radare2 to reverse engineer the program. Run ```radare2 ./decoded_file``` and then use ```aaa``` command to analyse all the strings and function call references.
+
+```zsh
+peter at kali in [~/KPMG-Cyber-Security-Challenge-2017/ACT 3/Where Is The File]  on git:master ✗  f5fc59f "update README.md"
+18:11:46 › radare2 ./decoded_file
+Warning: Cannot initialize dynamic strings
+ -- Change the registers of the child process in this way: 'dr eax=0x333'
+[0x00400930]> aaa
+[x] Analyze all flags starting with sym. and entry0 (aa)
+[x] Analyze len bytes of instructions for references (aar)
+[x] Analyze function calls (aac)
+[x] Use -AA or aaaa to perform additional experimental analysis.
+[x] Constructing a function name for fcn.* and sym.func.* functions (aan)
+```
+
+Use ```pdf @main``` command to disassemble the main function and we can see some sort of random case for the switch statement has been used in the program. 
+
+!(pdfmain)[pdfmain.png]
+
+Every time the program executes it will generate a random number and select  a random case from the switch statement. Every switch statement will produce a hint and a ```jpg``` file.
+
+
+
 
