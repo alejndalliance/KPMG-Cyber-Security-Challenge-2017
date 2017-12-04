@@ -89,7 +89,7 @@ Warning: Cannot initialize dynamic strings
 
 Use ```pdf @main``` command to disassemble the main function and we can see some sort of random case for the switch statement has been used in the program. 
 
-!(pdfmain)[pdfmain.png]
+![pdfmain](pdfmain.png)
 
 Every time the program executes it will generate a random number and select  a random case from the switch statement. Every switch statement will produce a hint and a ```jpg``` file.
 
