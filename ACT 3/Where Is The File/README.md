@@ -45,5 +45,5 @@ peter at kali in [~/KPMG-Cyber-Security-Challenge-2017/ACT 3/Where Is The File] 
 00000100: 50fe fe90 9090 9090 b090 9090 9090 9090  P...............
 
 ```
-As we can see the file contains a lot of ```0x90``` bytes. So, from here we can guess that, the file is XOR-ed using ```0x90`` key.
+As we can see the file contains a lot of ```0x90``` bytes. So, from here we can guess that, the file is XOR-ed using ```0x90``` key.
 
