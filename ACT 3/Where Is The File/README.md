@@ -20,7 +20,7 @@ Collecting data from file: Where_is_my_file
        Unknown!
 ```
 
-The trid command said the file is an unknown type so, we use ```xxd``` to open the file
+The trid command says the file is an unknown type so, we use ```xxd``` to open the file
 
 ```zsh
 peter at kali in [~/KPMG-Cyber-Security-Challenge-2017/ACT 3/Where Is The File]  on git:master ✗  bb9ee5b "Add README.md file and deleted readme.txt file"
@@ -64,3 +64,13 @@ while byte != "":
 
 outputfile.close()
 ```
+Inspect the ```decoded_file``` using ```file``` command.
+
+```zsh
+peter at kali in [~/KPMG-Cyber-Security-Challenge-2017/ACT 3/Where Is The File]  on git:master ✗  01b8593 "Add the decoded_file"
+17:16:38 › file decoded_file
+decoded_file: ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, for GNU/Linux 2.6.32, BuildID[sha1]=1963f496f342a9106e67884a2a686ca7a350acf7, stripped
+```
+
+The ```file``` command states that the file is an ```ELF`` file. From here we try to execute the file to see what will happen.
+
