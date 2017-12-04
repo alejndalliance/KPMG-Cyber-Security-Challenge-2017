@@ -20,7 +20,7 @@ Collecting data from file: Where_is_my_file
        Unknown!
 ```
 
-The trid command said the file is an unknown type so, we use ```xxd`` to open the file
+The trid command said the file is an unknown type so, we use ```xxd``` to open the file
 
 ```zsh
 peter at kali in [~/KPMG-Cyber-Security-Challenge-2017/ACT 3/Where Is The File]  on git:master ✗  bb9ee5b "Add README.md file and deleted readme.txt file"
