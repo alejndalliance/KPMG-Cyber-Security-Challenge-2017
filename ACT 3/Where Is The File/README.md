@@ -45,5 +45,22 @@ peter at kali in [~/KPMG-Cyber-Security-Challenge-2017/ACT 3/Where Is The File] 
 00000100: 50fe fe90 9090 9090 b090 9090 9090 9090  P...............
 
 ```
-As we can see the file contains a lot of ```0x90``` bytes. So, from here we can guess that, the file is XOR-ed using ```0x90``` key.
+As we can see the file contains a lot of ```0x90``` bytes. So, from here we can guess that, the file is XOR-ed using ```0x90``` key. Then, here the python script to decode the file:
 
+```python
+#!/usr/bin/env python
+
+import sys
+
+inputfile = open('Where_is_my_file','rb')
+outputfile = open('decoded_file','w+b')
+byte = inputfile.read(1)
+
+while byte != "":
+    byte = ord(byte)
+    byte = byte ^ 0x90
+    outputfile.write('%c' % byte)
+    byte = inputfile.read(1)
+
+outputfile.close()
+```
