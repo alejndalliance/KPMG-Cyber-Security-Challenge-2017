@@ -99,7 +99,7 @@ Besides, the ```Everyone dance with me.jpg``` gives us a hint, that the image is
 
 ![penguin.png](penguin.png)
 
-As we can see the ```XOR``` and ```SUM``` hints inside the ascii penguin. Then, ```Little indian song``` also gives us the hint on how to find the key.
+As we can see the ```XOR``` and ```SUM``` hints inside the ascii penguin. Then, ```10 Little Indian song``` also gives us the hint on how to find the key.
 
 ![onelittle.png](onelittle.png)
 ![fourlittlefive.png](fourlittlefive.png)
