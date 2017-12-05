@@ -91,8 +91,8 @@ Use ```pdf @main``` command to disassemble the main function and we can see some
 
 ![pdfmain](pdfmain.png)
 
-Every time the program executes it will generate a random number and select  a random case from the switch statement. Every switch statement will produce a hint and a ```jpg``` file.
+Every time the program executes it will generate a random number and select  a random case from the switch statement and produce a hint and a file. Then we loop over all the switch statements and the program generates a lot of files and hints.
 
-
+![files.png](files.png)
 
 
