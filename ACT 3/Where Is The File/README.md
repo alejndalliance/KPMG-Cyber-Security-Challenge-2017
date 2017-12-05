@@ -103,3 +103,59 @@ As we can see the ```XOR``` and ```SUM``` hints inside the ascii penguin. Then, 
 
 ![onelittle.png](onelittle.png)
 ![fourlittlefive.png](fourlittlefive.png)
+
+Now, let's construct the key:
+  ``` 1 + 2 + 3 + 4 + 5 + 6 = 21 --> 0x15 in hex ```
+
+So XOR-ing the ```Feel your feet.jpg``` with the key
+
+```python
+
+#!/usr/bin/env python
+
+import sys
+
+inputfile = open('Feel your feet.jpg','rb')
+outputfile = open('flag_file','w+b')
+byte = inputfile.read(1)
+
+while byte != "":
+    byte = ord(byte)
+    byte = byte ^ 0x15
+    outputfile.write('%c' % byte)
+    byte = inputfile.read(1)
+
+outputfile.close()
+```
+Once, we XOR-ed the ```Feel your feet.jpg``` file, we can combine those images (part 1: ```Everyone dance with me.jpg```,part 2: ```Feel your feet```,part 3:```Sliding through the ice.jpg```) using the python script:
+
+```python
+#!/usr/bin/env python
+
+import sys
+
+def write_to(file_name):
+    inputfile = open(file_name,'rb')
+    byte = inputfile.read(1)
+    while byte != "":
+        outputfile.write(byte)
+        byte = inputfile.read(1)
+
+file_list = ['Everyone dance with me.jpg','flag_file','Sliding through the ice.jpg']
+
+#writing the byte to the new file
+outputfile = open('new_image.jpg','w+b')
+
+for i in file_list:write_to(i)
+
+outputfile.close()
+```
+![new_image.jpg](new_image.jpg)
+
+In the penguin image, we can see base64 encoded string. Decode the string and we get the flag.
+
+```zsh
+peter at kali in [~/KPMG2017/ACT3/Where Is The File/JPG]
+17:25:56 › echo -n "e0tQTUdfREBuQyFuR193MVRoX011bUJffDN9" | base64 -d
+{KPMG_D@nC!nG_w1Th_MumB_|3}
+```
