@@ -20,7 +20,7 @@ The Top 3 teams from Malaysia will be competing with the Top 2 teams from Thaila
 
 **Available Writeup**
 
-- [CipherFromHell](CipherFromHell/)
+- [CipherFromHell](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/ACT%201/CipherFromHell)
 - [how many stars in the sky](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/ACT%204/how%20many%20stars%20in%20the%20sky)
 - [Click Game APK](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/ACT%204/click%20game%20apk)
 - [Sonic](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/ACT%204/sonic)
@@ -35,6 +35,7 @@ The Top 3 teams from Malaysia will be competing with the Top 2 teams from Thaila
 - [encoded](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/ACT%205/encoded)
 - [TravelAroundTheWorld](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/blob/master/ACT%205/travel)
 - [CrossCountry Challenge](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/blob/master/CrossCountry-Challenge/README.md)
+- [Where Is The File](https://github.com/alejndalliance/KPMG-Cyber-Security-Challenge-2017/tree/master/ACT%203/Where%20Is%20The%20File)
 
 
 **Not Available**
