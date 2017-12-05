@@ -91,8 +91,15 @@ Use ```pdf @main``` command to disassemble the main function and we can see some
 
 ![pdfmain](pdfmain.png)
 
-Every time the program executes it will generate a random number and select  a random case from the switch statement and produce a hint and a file. Then we loop over all the switch statements and the program generates a lot of files and hints.
+Every time the program executes it will generate a random number and select  a random case from the switch statement and produce an output and a file. Then we loop over all the switch statements and the program generates a lot of files and outputs. Most of the files generated is an image file but only two of them seem suspicious because the files are not an image file.
 
 ![files.png](files.png)
 
+Besides, the ```Everyone dance with me.jpg``` gives us a hint, that the image is splitted into three parts. The first part is ```Everyone dance with me.jpg```, the second part is ```Feel your feet.jpg``` and the third part is ```Sliding through the ice.jpg``` but the second part is encrypted and we need the key. The hints for the key is quite tricky because we need to look at every output generated from the program, from there we can guess the key. First we look at the ascii penguin ouput:
 
+![penguin.png](penguin.png)
+
+As we can see the ```XOR``` and ```SUM`` hints inside the ascii penguin. Then, ```Little indian song``` also gives us the hint on how to find the key.
+
+![onelittle.png](onelittle.png)
+![fourlittlefive.png](fourlittlefive.png)
