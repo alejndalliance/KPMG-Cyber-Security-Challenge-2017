@@ -25,6 +25,7 @@ and run script
 ```php
 <?php 
 error_reporting(0);
+//https://gist.github.com/MightyPork/6da26e382a7ad91b5496ee55fdc73db2
 $map = [
     4 => ['a', 'A'],
     5 => ['b', 'B'],
@@ -62,6 +63,7 @@ $map = [
     37 => ['8', '*'],
     38 => ['9', '('],
     39 => ['0', ')'],
+    42 => ['[BKSPCE]'],
     44 => [' '],
     45 => ['-', '_'],
     46 => ['=', '+'],
@@ -74,7 +76,15 @@ $map = [
     53 => ['`', '~'],
     54 => [',', '<'],
     55 => ['.', '>'],
-    56 => ['/', '?']
+    56 => ['/', '?'],
+    57 => ['[CAPS]'],
+    79 => ['[RIGHT]'],
+    76 => ['[DEL]'],
+    80 => ['[LEFT]'],
+    81 => ['[DOWN]'],
+    82 => ['[UP]'],
+    225 => ['[SHIFT]'],
+    229 => ['[CAPS]'],
  ];
 
 $data = file("data.txt", FILE_IGNORE_NEW_LINES);
@@ -84,6 +94,7 @@ foreach ($data as $i => $line) {
 }
 
  ?>
+
 ```
 
 we can get source code which is consist or 4 different source code
